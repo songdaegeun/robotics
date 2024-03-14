@@ -14,7 +14,7 @@ import math
 import matplotlib.pyplot as plt
 import numpy as np
 
-from utils.plot import plot_covariance_ellipse
+from ..utils.plot import plot_covariance_ellipse
 
 # Covariance for EKF simulation
 Q = np.diag([
