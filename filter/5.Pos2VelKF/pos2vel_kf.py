@@ -49,7 +49,7 @@ Q = np.array([[1, 0],
 R = np.array([[10]])
 
 # Initialization for estimation.
-x_0 = np.array([0, 20])  # position and velocity
+x_0 = np.array([50, 20])  # position and velocity
 P_0 = 5 * np.eye(2)
 
 time = np.arange(0, time_end, dt)
